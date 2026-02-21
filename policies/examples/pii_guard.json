@@ -1,0 +1,1 @@
+{"policy_id":"pii-guard-v1","version":"1.0.0","default_decision":"allow","rules":[{"id":"block-pii-export","action":"export","decision":"deny","conditions":{"contains_pii":true},"reason":"Cannot export PII"}]}

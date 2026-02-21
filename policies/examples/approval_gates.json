@@ -1,0 +1,1 @@
+{"policy_id":"approval-gates-v1","version":"1.0.0","default_decision":"allow","rules":[{"id":"approve-writes","action":"write","decision":"require_approval"},{"id":"approve-deletes","action":"delete","decision":"require_approval"},{"id":"approve-external","action":"external_api_call","decision":"require_approval"}]}
