@@ -31,6 +31,17 @@ decision = engine.evaluate("search", {"data_class": "PHI"})
 print(decision)  # deny / require_approval
 \`\`\`
 
+## Framework alignment
+
+This engine implements the **non-bypassable governance layer** of [ATVC — the Agentic Trust Validation Certification framework](https://enterprise-ai-playbook-demo.vercel.app/). Specifically:
+
+| ATVC Phase | Coverage |
+|---|---|
+| **Phase 02 — Architecture** (steps 26–50) | Policy model, decision-receipt contract, trust-boundary placement |
+| **Phase 03 — Engineering** (steps 51–75) | Deny-by-default evaluation, bypass-attempt detection, policy gate in CI |
+
+Every allow/deny emits a decision receipt compatible with [agentic-receipts](https://github.com/cmangun/agentic-receipts). Absence of a decision receipt is itself a verification failure.
+
 ## Suite
 
 This repo is part of the **Agentic Evidence Suite**:
