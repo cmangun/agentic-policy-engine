@@ -1,5 +1,7 @@
 # agentic-policy-engine
 
+[![CI](https://github.com/cmangun/agentic-policy-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/cmangun/agentic-policy-engine/actions/workflows/ci.yml)
+
 > Part of the [Agentic Evidence Suite](https://github.com/cmangun/agentic-evidence) — six interoperating components for verifiable agentic AI. See [`REFERENCE-ARCHITECTURE.md`](https://github.com/cmangun/agentic-evidence/blob/main/REFERENCE-ARCHITECTURE.md) for the suite-level architecture.
 
 A minimal policy engine for **non-bypassable agent governance**.
