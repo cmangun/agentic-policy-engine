@@ -8,7 +8,9 @@ ADRs are numbered sequentially and never deleted. Superseded ADRs remain in this
 
 | # | Title | Status |
 |---|---|---|
-| (none yet) | | |
+| 0001 | [Deny-by-default posture](0001-deny-by-default.md) | Accepted |
+| 0002 | [Decision receipts emitted symmetrically (every allow + every deny)](0002-symmetric-decision-receipts.md) | Accepted |
+| 0003 | [Policy evaluation point — tool-call boundary](0003-tool-call-boundary.md) | Accepted |
 
 ## Format
 
