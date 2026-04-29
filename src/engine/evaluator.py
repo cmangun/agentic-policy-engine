@@ -43,7 +43,7 @@ class PolicyEngine:
             actual = context.get(key)
             if isinstance(expected, dict):
                 if "gt" in expected and (actual is None or actual <= expected["gt"]): return False
-                if "not" in expected and actual == expected["not"]: return False
+                if "not" in expected and (actual is None or actual == expected["not"]): return False
             elif actual != expected: return False
         return True
 
